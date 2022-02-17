@@ -5433,7 +5433,7 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15);
   border-radius: 0.25rem;
 }
 .toast.showing {
@@ -6750,7 +6750,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
 }
 
 .shadow-sm {
@@ -6758,7 +6758,7 @@ textarea.form-control-lg {
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
 }
 
 .shadow-none {
@@ -11405,6 +11405,82 @@ section {
   height: 100%;
 }
 
+.logo svg {
+  width: 100%;
+}
+
+.logo-sm {
+  width: 32px;
+}
+
+.logo-md {
+  width: 64px;
+}
+
+.logo-30 {
+  width: 30px;
+}
+
+.logo-40 {
+  width: 40px;
+}
+
+.logo-50 {
+  width: 50px;
+}
+
+.logo-yellow svg g path#zrnko {
+  fill: #fff000 !important;
+}
+
+.logo-lime svg g path#zrnko {
+  fill: #75dc1e !important;
+}
+
+.logo-green svg g path#zrnko {
+  fill: #1bc054 !important;
+}
+
+.logo-teal svg g path#zrnko {
+  fill: #00a085 !important;
+}
+
+.logo-royal-blue svg g path#zrnko {
+  fill: #0064dd !important;
+}
+
+.logo-blue svg g path#zrnko {
+  fill: #003fd0 !important;
+}
+
+.logo-purple svg g path#zrnko {
+  fill: #662982 !important;
+}
+
+.logo-violet svg g path#zrnko {
+  fill: #ba0e53 !important;
+}
+
+.logo-crimson svg g path#zrnko {
+  fill: #f3012c !important;
+}
+
+.logo-red svg g path#zrnko {
+  fill: #fe021f !important;
+}
+
+.logo-orange svg g path#zrnko {
+  fill: #ff5100 !important;
+}
+
+.logo-peru svg g path#zrnko {
+  fill: #ff9400 !important;
+}
+
+.logo-gold svg g path#zrnko {
+  fill: #ffd701 !important;
+}
+
 section.cta {
   position: relative;
   padding: 10rem 0;
@@ -11433,6 +11509,20 @@ section.packages:before {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+section.packages .card {
+  box-shadow: 0.25rem 0.5rem 1rem rgba(254, 252, 249, 0.7);
+  transition: all 0.3s ease-out;
+}
+section.packages .card:hover {
+  transform: translate(-0.25rem, -0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.25rem rgba(254, 252, 249, 0.5);
+}
+section.packages .card.scaled {
+  transform: scale(1.1);
+}
+section.packages .card.scaled:hover {
+  transform: scale(1.1) translate(-0.25rem, -0.5rem);
 }
 
 .icon-feature {
